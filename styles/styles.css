@@ -128,3 +128,4 @@ header{display: flex;
 
 .lis:hover {padding-top: 10px;color: red;}
 .wave:hover  {transform: rotate(360deg);}
+.readmore:hover { background-color: white;}.hov:hover {color: black;}
