@@ -1,3 +1,4 @@
+body{width: 100%;}
 header{display: flex;
     justify-content: space-around;
     font-size: 20px;
@@ -10,12 +11,14 @@ header{display: flex;
     background-color:rgb(116, 117, 116);
     border-radius: 0 0 100px 100px;
     transition: all 3s linear;}
-.section1{padding-top: 127px;}
+.section1{width: 100%; 
+    padding-top: 127px;}
 .nav{display: flex;
     justify-content: space-around;
     padding-top:10px;
     font-size: 17px;}
-.nav-li{width:800px;}
+.nav-li{max-width:800px;
+    width: 100%;}
 .logo{padding-right:450px;
     font-size: 25px;
     font-weight:300;}
@@ -24,13 +27,15 @@ header{display: flex;
 .lis{color: #3D37F1;
     transition: all 0.5s ease;}
 /* header */
-.big-box{width:100%;
+.big-box{max-width:100%;
+    width: 100%;
     height: 600px;
      margin: 0 auto;
      display: flex;
      justify-content: space-around;
      padding-top: 100px;}
-.leftbox {width: 600px;
+.leftbox {max-width: 600px;
+    width: 100%;
     height:200px;}
 .p1{font-size: 78px;
     font-family: 'Roboto', sans-serif;
@@ -57,8 +62,8 @@ header{display: flex;
     font-weight: bold;}
 /* center */
 .text-block{height: 300px;
-     width:700px;
-     
+     max-width:700px;
+     width: 100%;
      margin: 0 auto;
      margin-top: 300px;
      font-family: 'Roboto', sans-serif;
@@ -72,11 +77,13 @@ header{display: flex;
     color: #747474;
     padding-top: 21px;}
 /* last page */
-.big2box {width: 1300px;
-    height: 451px;
+.big2box {max-width: 1300px;
+     width: 100%;
+     height: 451px;
      margin: 0 auto;display: flex;
      justify-content: space-around;}
-.div1 { width: 370px;
+.div1 { max-width: 370px;
+    width: 100%;
     height: 451;
     display: flex;
     justify-content: center;
@@ -85,12 +92,14 @@ header{display: flex;
     position: relative;
     animation: divanimation 5s ease-in-out infinite  alternate;
     }
-.big3box {width: 1300px;
+.big3box {max-width: 1300px;
+         width: 100%;
          height: 700px;;
          margin: 0 auto;display: flex;
          justify-content: space-around;
          padding-top: 45px;}
-.div2 { width: 370px;
+.div2 { max-width: 370px;
+         width: 100%;
          height: 451px;
          display: flex;
          justify-content: center;
